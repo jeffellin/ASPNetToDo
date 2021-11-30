@@ -1,0 +1,16 @@
+apiVersion: carto.run/v1alpha1
+kind: Workload
+metadata:
+  name: tanzu-dotnet-upgrade-accelerator
+  labels:
+    apps.tanzu.vmware.com/workload-type: web
+    app.kubernetes.io/part-of: tanzu-dotnet-upgrade-accelerator
+spec:
+  params:
+    - name: run-image
+      value: jeffellin/cdemo/tanzu-dotnet-upgrade-accelerator
+  source:
+    git:
+      url: https://github.com/jeffellin/ASPNetToDo
+      ref:
+        branch: main
