@@ -8,7 +8,7 @@ metadata:
 spec:
   params:
     - name: run-image
-      value: jeffellin/tanzu-dotnet-upgrade-accelerator
+      value: registry.gcp.ellin.net/tapb3/tanzu-dotnet-upgrade-accelerator
   source:
     git:
       url: https://github.com/jeffellin/ASPNetToDo

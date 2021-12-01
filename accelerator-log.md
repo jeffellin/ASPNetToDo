@@ -5,7 +5,7 @@
 {
   "gitRepository" : "https://github.com/jeffellin/ASPNetToDo",
   "projectName" : "tanzu-dotnet-upgrade-accelerator",
-  "repositoryPrefix" : "jeffellin/cdemo"
+  "repositoryPrefix" : "ellinj/cdemo"
 }
 ```
 ## Log
